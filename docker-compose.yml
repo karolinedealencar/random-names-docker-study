@@ -16,9 +16,14 @@ services:
     image: mongo
     ports:
       - 27017:27017 # default
+    volumes:
+      - mongodbdata:/data/db
   mongoexpress:
     image: mongo-express
     ports:
       - 8081:8081 # default
     environment:
       - ME_CONFIG_MONGODB_SERVER=mongodb
+volumes:
+  mongodbdata:
+    driver: local
