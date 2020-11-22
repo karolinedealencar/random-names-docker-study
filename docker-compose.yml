@@ -3,9 +3,10 @@ services:
   app:
     image: app
     build: .
-    depends_on: 
-      - rabbitmq
-      - mongodb
+    deploy:
+      restart_policy:
+        condition: on-failure
+        max_attempts: 3
   rabbitmq:
     image: rabbitmq:3.8.9-management-alpine
     ports: 
