@@ -21,5 +21,12 @@
   "bugs": {
     "url": "https://github.com/karolinedealencar/random-names-docker-study/issues"
   },
-  "homepage": "https://github.com/karolinedealencar/random-names-docker-study#readme"
+  "homepage": "https://github.com/karolinedealencar/random-names-docker-study#readme",
+  "dependencies": {
+    "amqplib": "^0.6.0",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.14.0"
+  }
 }
