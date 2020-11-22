@@ -5,3 +5,13 @@ services:
     ports: 
       - 5672:5672 # default
       - 15672:15672 # cli default
+  mongodb:
+    image: mongo
+    ports:
+      - 27017:27017 # default
+  mongoexpress:
+    image: mongo-express
+    ports:
+      - 8081:8081 # default
+    environment:
+      - ME_CONFIG_MONGODB_SERVER=mongodb
