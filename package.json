@@ -1,0 +1,25 @@
+{
+  "name": "random-names-docker-study",
+  "version": "1.0.0",
+  "description": "NodeJS application to receive and record random names with RabbitMQ & MongoDB, made to study docker.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karolinedealencar/random-names-docker-study.git"
+  },
+  "keywords": [
+    "nodejs",
+    "docker",
+    "rabbitmq",
+    "mongodb"
+  ],
+  "author": "Karoline Alencar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karolinedealencar/random-names-docker-study/issues"
+  },
+  "homepage": "https://github.com/karolinedealencar/random-names-docker-study#readme"
+}
