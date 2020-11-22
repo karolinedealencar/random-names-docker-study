@@ -24,7 +24,8 @@
   "homepage": "https://github.com/karolinedealencar/random-names-docker-study#readme",
   "dependencies": {
     "amqplib": "^0.6.0",
-    "dotenv": "^8.2.0"
+    "dotenv": "^8.2.0",
+    "mongodb": "^3.6.3"
   },
   "devDependencies": {
     "eslint": "^7.14.0"
